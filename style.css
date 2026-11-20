@@ -1,0 +1,134 @@
+/* Pixie Stick's Bakery - main style sheet */
+body {
+    background-color: #FFF8F0;
+    color: #4A2B55;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #F9A8C9, #CDB4F6);
+    text-align: center;
+    padding: 1.5em 1em 1em;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 3em;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 0 #D6336C;
+    margin: 0.2em 0 0;
+}
+
+.logo {
+    width: 110px;
+    height: 110px;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+nav {
+    background-color: #A8E6CF;
+    border-bottom: 4px dotted #FF6FA5;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em;
+}
+
+nav a {
+    display: block;
+    color: #4A2B55;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5em 1.2em;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #FFFFFF;
+    color: #D6336C;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1em 1.5em;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: #D6336C;
+    border-bottom: 3px dashed #F9A8C9;
+    padding-bottom: 0.2em;
+}
+
+h3 {
+    color: #7B4AA8;
+    margin: 0.5em 0 0.2em;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 24px;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0 4px 12px rgba(74, 43, 85, 0.25);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2em;
+}
+
+.card {
+    flex: 1 1 250px;
+    background-color: #FFFFFF;
+    border: 3px dashed #F9A8C9;
+    border-radius: 20px;
+    padding: 1em;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    max-width: 220px;
+}
+
+.menu-list li,
+.event-list li {
+    margin-bottom: 0.6em;
+}
+
+footer {
+    background-color: #4A2B55;
+    color: #FFE28A;
+    text-align: center;
+    padding: 1.5em 1em;
+    margin-top: 2em;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
