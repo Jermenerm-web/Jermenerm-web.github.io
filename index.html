@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
+    <meta name="description" content="Pixie Stick&rsquo;s is a whimsical neighborhood bakery. See our weekly baked creations, browse the menu, and find upcoming bakery events.">
+    <meta name="keywords" content="bakery, cupcakes, cookies, donuts, weekly creations, bakery menu, bakery events, custom orders">
+    <meta name="author" content="Alex Zwiernik">
+    <title>Pixie Stick&rsquo;s Bakery | Weekly Creations, Menu, and Events</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h>Hello</h>
+    <header>
+        <img class="logo" src="images/logo.svg" alt="Pixie Stick&rsquo;s cupcake logo">
+        <h1>Pixie Stick&rsquo;s</h1>
+        <p class="tagline">Small bites. Big sparkle.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#weekly">Weekly Creations</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#events">Events</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="welcome">
+            <img class="banner" src="images/banner.svg" alt="Pastel banner covered in colorful sprinkles that reads Bake. Sprinkle. Smile.">
+            <h2>Welcome to Pixie Stick&rsquo;s!</h2>
+            <p>
+                Pixie Stick&rsquo;s is a brand-new bakery made for people who believe dessert should be fun. Every week our bakers dream up fresh, colorful treats, so there is always something new to try. Whether you are stopping in for a quick snack, picking out something for the kids, or planning a birthday or celebration, you can find everything you need right here: the weekly creations, the full menu, and upcoming bakery events.
+            </p>
+        </section>
+
+        <section id="weekly">
+            <h2>This Week&rsquo;s Creations</h2>
+            <p>Our bakers make something new every week. Here is a peek at what is coming out of the oven.</p>
+            <div class="cards">
+                <article class="card">
+                    <img src="images/cupcake.svg" alt="Illustration of a pink frosted cupcake topped with sprinkles and a cherry">
+                    <h3>Rainbow Sprinkle Cupcake</h3>
+                    <p>Vanilla cake, strawberry buttercream, and a generous shower of sprinkles.</p>
+                </article>
+                <article class="card">
+                    <img src="images/donut.svg" alt="Illustration of a pink glazed donut covered in sprinkles">
+                    <h3>Strawberry Glazed Donut</h3>
+                    <p>A soft, fluffy donut dipped in a sweet strawberry glaze.</p>
+                </article>
+                <article class="card">
+                    <img src="images/cookie.svg" alt="Illustration of a chocolate chip cookie with colorful sprinkles">
+                    <h3>Confetti Chip Cookie</h3>
+                    <p>A chewy chocolate chip cookie with a pop of confetti sprinkles.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2>On the Menu</h2>
+            <p>Our menu has a little something for every sweet tooth. Here are some of the favorites:</p>
+            <ul class="menu-list">
+                <li><strong>Cupcakes:</strong> classic and seasonal flavors, sold individually or by the box.</li>
+                <li><strong>Cookies and Bars:</strong> chewy cookies, brownies, and crispy treats.</li>
+                <li><strong>Donuts:</strong> baked fresh with new glazes and toppings each week.</li>
+                <li><strong>Special Occasion Cakes:</strong> custom cakes for birthdays, showers, and more.</li>
+            </ul>
+        </section>
+
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <p>Come celebrate with us! Here are some of the fun things we are planning:</p>
+            <ul class="event-list">
+                <li><strong>Grand Opening Sprinkle Party:</strong> free samples, music, and giveaways.</li>
+                <li><strong>Decorate-a-Cupcake Saturdays:</strong> a family-friendly activity for all ages.</li>
+                <li><strong>Seasonal Treat Tastings:</strong> be the first to try our newest flavors.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Pixie Stick&rsquo;s Bakery</p>
+        <p>Questions or special orders? <a href="mailto:hello@pixiesticks.example">hello@pixiesticks.example</a></p>
+    </footer>
 </body>
 </html>
